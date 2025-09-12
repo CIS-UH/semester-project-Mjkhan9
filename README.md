@@ -1,1 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Jjmk4M6k)
+Stocks & Bonds Management Software — Homework 1
+Name: Mohammad Khan
+Student ID: 2245764
+Date: 09/11/25
+
+This is a start for HW1.
+- SRS is in docs/SRS.md
+- Python demo is in src/portfolio.py (adds two stocks and prints a summary)
+- Week 1 notes are in weekly-logs/Week-01.md
+
+Run the demo:
+python3 src/portfolio.py
