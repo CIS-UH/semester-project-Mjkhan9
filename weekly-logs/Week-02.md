@@ -178,9 +178,9 @@ if __name__ == "__main__":
 
 Homework 2 completion – step 9
 Submission Checklist
-- Mohammad Khan 2245764 at the top of the documents
-- SRS updated with FR and NFR, and user stories
-- README updated with run steps
-- Week 01 notes updated with delivered items
-- Code runs with python3 and prints a summary and a report
+Mohammad Khan 2245764 at the top of the documents
+SRS updated with FR and NFR, and user stories
+README updated with run steps
+Week 01 notes updated with delivered items
+Code runs with python3 and prints a summary and a report
 
