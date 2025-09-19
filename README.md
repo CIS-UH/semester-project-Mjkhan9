@@ -1,28 +1,20 @@
-Stocks & Bonds Management Software — Homework 1
-Name: Mohammad Khan
-Student ID: 2245764
-Date: 09/11/25
+Stocks and Bonds Management Software  
+Homework 1  
+Name: Mohammad Khan  
+ID: 2245764  
+Date: 09/11/25  
 
-Overview
-This is my Homework 1 for the semester project. I set up the repo, wrote a short SRS, and made a small Python file that can add a stock and print a simple summary.
+Overview  
+This project is the first step of a semester-long assignment. The purpose is to build a simple tool for managing a basic investment portfolio. Homework 1 focuses on the ability to add stock positions and produce a summary that is easy to read. The goal is to provide a foundation that can be extended in later homework with bonds, reports, and pricing. The project was created to give students a chance to learn simple portfolio tracking concepts without the complexity of professional financial software.  
 
-What’s in here
-- docs/SRS.md — short write-up with goal, a few requirements, and one use case
-- src/portfolio.py — small script with add_stock and make_summary
-- weekly-logs/Week-01.md — quick notes on what I planned/did/next
+Files Included  
+The document docs/SRS.MD contains the Software Requirements Specification. It explains the purpose, scope, requirements, and one use case for Homework 1. The file src/portfolio.py contains the Python code that can add a stock and return a summary. The file weekly logs/Week 01.md contains my notes describing what I planned, what I delivered, what issues I faced, and what I will do next.  
 
-How to run the demo
-1) Make sure Python 3 is on your machine.
-2) From the repo folder, run:
-   python3 src/portfolio.py
-3) It should print a dictionary showing two stocks (AAPL, MSFT) and totals.
+How to Run  
+First, confirm that Python 3 is installed on the computer. Open a terminal in the project folder. Run the command python3 src/portfolio.py. The program will print a dictionary summary showing the total number of items, the number of stock positions, and the positions themselves. In Homework 1 the demo uses the tickers AAPL and MSFT.  
 
-What I did this week
-- Created the folders and files
-- Wrote a short SRS draft
-- Coded add_stock() and make_summary(), and tested with two example tickers
+What I Completed  
+I created the repository and organized the folders into 'docs', 'src', and 'weekly logs'. I wrote the first version of the SRS with a goal, functional requirements, non-functional requirements, and a use case. I created the Python file that includes the add_stock function and the make_summary function. I ran the program with two example tickers and confirmed that the output matched expectations.  
 
-What’s next
-- Add bonds support
-- Make a simple text report
-- Later: think about price lookups
+Next Steps  
+I will expand the program to add support for bonds with a ticker, quantity, par value, and coupon rate. I will add a plain-text portfolio report that lists all positions in a simple format. I will expand the SRS to include more requirements and acceptance criteria. I will continue to update the weekly logs to document progress.  
