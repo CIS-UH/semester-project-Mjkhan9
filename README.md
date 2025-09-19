@@ -5,16 +5,15 @@ ID: 2245764
 Date: 09/11/25  
 
 Overview  
-This project is the first step of a semester-long assignment. The purpose is to build a simple tool for managing a basic investment portfolio. Homework 1 focuses on the ability to add stock positions and produce a summary that is easy to read. The goal is to provide a foundation that can be extended in later homework with bonds, reports, and pricing. The project was created to give students a chance to learn simple portfolio tracking concepts without the complexity of professional financial software.  
+This project is the first step in a semester-long assignment. The objective is to develop a straightforward tool for tracking a small investment portfolio. This phase, Homework 1, focuses on adding stock positions and printing a summary. Future assignments will include bonds, a text report, and basic pricing features.
 
 Files Included  
-The document docs/SRS.MD contains the Software Requirements Specification. It explains the purpose, scope, requirements, and one use case for Homework 1. The file src/portfolio.py contains the Python code that can add a stock and return a summary. The file weekly logs/Week 01.md contains my notes describing what I planned, what I delivered, what issues I faced, and what I will do next.  
+- The file docs/SRS.md contains the Software Requirements Specification.  
+- The file src/portfolio.py contains the Python code.  
+- The files weekly_logs/Week-01.md and weekly_logs/Week-02.md contain weekly notes and planning updates.
 
 How to Run  
-First, confirm that Python 3 is installed on the computer. Open a terminal in the project folder. Run the command python3 src/portfolio.py. The program will print a dictionary summary showing the total number of items, the number of stock positions, and the positions themselves. In Homework 1 the demo uses the tickers AAPL and MSFT.  
+Ensure that Python 3 is installed. Open a terminal in the project folder and run the command `python3 src/portfolio.py`. The program will print a dictionary summary with totals and then display a plain text report.
 
 What I Completed  
-I created the repository and organized the folders into 'docs', 'src', and 'weekly logs'. I wrote the first version of the SRS with a goal, functional requirements, non-functional requirements, and a use case. I created the Python file that includes the add_stock function and the make_summary function. I ran the program with two example tickers and confirmed that the output matched expectations.  
-
-Next Steps  
-I will expand the program to add support for bonds with a ticker, quantity, par value, and coupon rate. I will add a plain-text portfolio report that lists all positions in a simple format. I will expand the SRS to include more requirements and acceptance criteria. I will continue to update the weekly logs to document progress.  
+I set up the repository folders: docs, src, and weekly_logs. I wrote the Software Requirements Specification (SRS). I implemented the functionality to add stocks and generate a summary. I tested the program with AAPL and MSFT stocks and confirmed that the output is correct.
