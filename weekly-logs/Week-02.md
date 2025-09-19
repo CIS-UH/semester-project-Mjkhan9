@@ -1,186 +1,93 @@
-Week 2 — Notes (Homework 2)  
+Week 2 Notes Homework 2  
 Name: Mohammad Khan  
 ID: 2245764  
 Date: 09/18/25  
 
-Homework 2 - Step 1 Assumptions and Estimation Approach  
-Project name: Investment Portfolio Application  
-Environment: Python 3 local machine  
-No external APIs in this homework.  
-Estimation uses simple person hours with a 25 percent contingency on tasks that are new to me. Durations assume 2-hour work blocks on weekdays.  
+Homework 2 Step 1 Assumptions and Estimation Approach  
+The project is called Investment Portfolio Application. The program will run on a local machine with Python 3 installed. No external libraries or APIs will be used in this homework. The estimation method is based on person hours with a twenty five percent contingency for tasks that are new to me. Durations are divided into two hour blocks on weekdays.  
 
-Homework 2 - Step 2 Work Breakdown Structure WBS  
-1 Initiation and Requirements  
-1.1 Review class slides and instructions  
-1.2 Collect and refine user stories  
-1.3 Define scope and constraints  
+Homework 2 Step 2 Work Breakdown Structure  
+The initiation and requirements phase includes reviewing the slides and instructions, collecting and refining user stories, and defining the scope and constraints.  
+The design phase includes making the data model for positions and defining the function interfaces.  
+The implementation phase includes coding add stock, add bond, make summary, make text report, and writing a demo in the main function.  
+The validation and testing phase includes running manual tests for valid inputs, running manual tests for invalid inputs, and saving a sample run with output.  
+The documentation phase includes updating the README with run steps, updating the SRS with functional and non functional requirements, and updating the Week 1 log.  
+The project management phase includes schedule tracking, adjustments, and packaging the project for submission.  
 
-2 Design  
-2.1 Data model for positions  
-2.2 Function interfaces and I/O  
+Homework 2 Step 3 Activity List with Estimated Hours  
+Reviewing slides and assignment takes three hours.  
+Finalizing user stories and acceptance criteria takes three hours.  
+Writing scope and constraints takes one hour.  
+Designing the data model takes one hour.  
+Planning function signatures takes one hour.  
+Coding add stock takes one hour.  
+Coding add bond takes one and a half hours.  
+Coding make summary takes one hour.  
+Coding make text report takes one hour.  
+Writing the demo takes half an hour.  
+Running valid input tests takes one hour.  
+Running invalid input tests takes one hour.  
+Saving a sample run and output takes half an hour.  
+Updating the README takes one hour.  
+Updating the SRS takes one hour.  
+Updating the Week 1 notes takes half an hour.  
+Checking the schedule and buffer takes one hour.  
+Packaging the final submission takes half an hour.  
+The total estimated effort is nineteen and a half hours.  
 
-3 Implementation  
-3.1 add_stock function  
-3.2 add_bond function  
-3.3 make_summary function  
-3.4 make_text_report function  
-3.5 Demo in main  
+Homework 2 Step 4 Dependencies  
+Finalizing stories depends on reviewing the slides.  
+Writing scope depends on completing stories.  
+Designing the data model depends on stories and scope.  
+Planning functions depends on the data model.  
+Coding functions depends on planning.  
+Testing depends on completing the demo.  
+Documentation depends on finishing the tests.  
+Final schedule check depends on documentation.  
+Packaging depends on schedule checks.  
 
-4 Validation and Testing  
-4.1 Manual tests for valid inputs  
-4.2 Manual tests for invalid inputs  
-4.3 Sample data run and screenshots or logs  
+Homework 2 Step 5 Milestones  
+Requirements are approved after stories and scope are complete.  
+Core functions are complete after the text report is coded.  
+The demo is complete after the program runs with example data.  
+Testing is complete after running valid and invalid inputs.  
+Documentation is complete after updating the README, the SRS, and the weekly log.  
+The project is ready for submission after packaging is complete.  
 
-5 Documentation  
-5.1 Update README run steps  
-5.2 Update SRS with FR and NFR  
-5.3 Week 01 log update  
+Daily Tasks and Hours
 
-6 Project Management  
-6.1 Schedule tracking and adjustments  
-6.2 Final packaging and submission  
+- Day 1: Review slides and begin writing user stories - 3.0 hours
+  
+- Day 2: Complete user stories, write the project scope, and design the model - 3.0 hours
+  
+- Day 3: Plan function signatures and code to add stock - 2.0 hours
+  
+- Day 4: Code the functionality to add bonds and create a summary - 2.5 hours
+  
+- Day 5: Develop a text report and prepare for the demo - 1.5 hours
+  
+- Day 6: Conduct tests using valid and invalid input - 2.0 hours
+  
+- Day 7: Save a sample run and update the README file - 1.5 hours
+  
+- Day 8: Update the Software Requirements Specification (SRS) and weekly log - 1.5 hours
+  
+- Day 9: Check the project schedule and prepare for submission packaging - 1.5 hours
 
-Homework 2 - Step 3 Activity List with Estimated hours  
-A1 Review slides and assignment 2  
-A2 Finalize 15 user stories and acceptance criteria 3  
-A3 Scope and constraints write-up 1  
-A4 Data model decisions 1  
-A5 Plan function signatures 1  
-A6 Implement add_stock 1  
-A7 Implement add_bond 1.5  
-A8 Implement make_summary 1  
-A9 Implement make_text_report 1  
-A10 Main demo script 0.5  
-A11 Manual valid input tests 1  
-A12 Manual invalid input tests 1  
-A13 Sample run and save output 0.5  
-A14 Update README 1  
-A15 Update SRS 1  
-A16 Update Week 01 notes 0.5  
-A17 Schedule check and buffer 1  
-A18 Package and submit 0.5  
-Total estimated effort = 19.5 hours  
+- Buffer: Buffer time allocated between Days 6 and 9 - 1.0 hour 
 
-Homework 2 - Step 4 Dependencies  
-A2 depends on A1  
-A3 depends on A1  
-A4 depends on A2 and A3  
-A5 depends on A4  
-A6 depends on A5  
-A7 depends on A5  
-A8 depends on A6 and A7  
-A9 depends on A8  
-A10 depends on A6 through A9  
-A11 depends on A10  
-A12 depends on A10  
-A13 depends on A11 and A12  
-A14 depends on A10 through A13  
-A15 depends on A2 and A3 and A8  
-A16 depends on A14 and A15  
-A17 depends on A10 through A16  
-A18 depends on A17  
+Homework 2 Step 7 Risk Register  
+Risk one is underestimating coding time, which may cause incomplete functions. The response is to use the buffer and reduce optional formatting.  
+Risk two is confusion with acceptance tests, which may lead to rework. The response is to review stories with class notes before coding.  
+Risk three is version issues with Python, which may cause delays in work. The response is to test on lab machines and avoid external packages.  
+Risk four is last-minute errors, which may lower submission quality. The response is to finish one day early and use the buffer to fix errors.  
 
-Homework 2 - Step 5 Milestones  
-M1 Requirements approved after A2 and A3  
-M2 Core functions complete after A9  
-M3 Demo run complete after A10  
-M4 Testing complete after A13  
-M5 Documentation complete after A16  
-M6 Ready to submit after A18  
+Homework 2 Step 8 Sample Code Snippets  
+The add stock function checks that the ticker is not empty and the quantity is positive. If valid, the ticker is saved in uppercase, and the quantity is stored as a float.  
+The add bond function checks that the ticker is not empty, the quantity and par are positive, and the coupon is non-negative. If valid, the bond is saved in uppercase with numeric fields stored as floats.  
+The make summary function counts total items, stocks, and bonds, and returns these counts with the positions.  
+The make text report function prints a header and then lists the holdings. If the portfolio is empty, it prints empty. If the portfolio contains items, it lists each stock and bond, providing details.  
+The demo script adds two stocks and one bond, then prints the summary and the text report.  
 
-Homework 2 - Step 6 Schedule by Day  
-Day 1 A1 A2 start 3 hours  
-Day 2 A2 finish A3 A4 3 hours  
-Day 3 A5 A6 2 hours  
-Day 4 A7 A8 2.5 hours  
-Day 5 A9 A10 1.5 hours  
-Day 6 A11 A12 2 hours  
-Day 7 A13 A14 1.5 hours  
-Day 8 A15 A16 1.5 hours  
-Day 9 A17 A18 1.5 hours  
-Buffer: 1 hour spread across Days 6 to 9  
-
-Homework 2 - Step 7 Risk Register summary  
-R1 Underestimate coding time. Impact: slip functions not done on schedule. Response: add 25 percent buffer and cut optional formatting if needed.  
-R2 Confusing acceptance tests. Impact: rework. Response: Review stories with class notes before coding.  
-R3 Tool version issues. Impact: delays. Response: test on lab Python and avoid external packages.  
-R4 Last-minute errors. Impact: submission quality. Response: finish one day early and use the buffer to fix issues.  
-
-Homework 2 - Step 8 Sample Code Snippets  
-Function to add a stock  
-def add_stock(portfolio, ticker, quantity):  
-    if not ticker or not ticker.strip():  
-        raise ValueError("Please enter a ticker, like AAPL")  
-    if quantity <= 0:  
-        raise ValueError("Quantity must be positive")  
-    t = ticker.strip().upper()  
-    portfolio.append({"type": "STOCK", "ticker": t, "qty": float(quantity)})  
-
-Function to add a bond  
-def add_bond(portfolio, ticker, quantity, par, coupon):  
-    if not ticker or not ticker.strip():  
-        raise ValueError("Please enter a bond ticker or name")  
-    if quantity <= 0:  
-        raise ValueError("Quantity must be positive")  
-    if par <= 0:  
-        raise ValueError("Par must be positive")  
-    if coupon < 0:  
-        raise ValueError("Coupon must be non-negative")  
-    t = ticker.strip().upper()  
-    portfolio.append({  
-        "type": "BOND",  
-        "ticker": t,  
-        "qty": float(quantity),  
-        "par": float(par),  
-        "coupon": float(coupon)  
-    })  
-
-Summary and report  
-def make_summary(portfolio):  
-    total = len(portfolio)  
-    stocks = sum(1 for p in portfolio if p["type"] == "STOCK")  
-    bonds = sum(1 for p in portfolio if p["type"] == "BOND")  
-    return {  
-        "total_items": total,  
-        "stocks_only": stocks,  
-        "bonds_only": bonds,  
-        "positions": portfolio  
-    }  
-
-def make_text_report(portfolio):  
-    lines = []  
-    lines.append("Portfolio Report")  
-    lines.append("-----------------")  
-    if not portfolio:  
-        lines.append("(empty)")  
-        return "n".join(lines)  
-    stock_count = sum(1 for p in portfolio if p["type"] == "STOCK")  
-    bond_count = sum(1 for p in portfolio if p["type"] == "BOND")  
-    lines.append(f"Positions: {len(portfolio)} | Stocks: {stock_count} | Bonds: {bond_count}")  
-    lines.append("")  
-    lines.append("Holdings:")  
-    for p in portfolio:  
-        if p["type"] == "STOCK":  
-            lines.append(f"- STOCK  {p['ticker']:>6}  qty={p['qty']}")  
-        else:  
-            lines.append(f"- BOND   {p['ticker']:>6}  qty={p['qty']}  par={p.get('par', 0)}  coupon={p.get('coupon', 0)}")  
-    return "n".join(lines)  
-
-Demo  
-if __name__ == "__main__":  
-    data = []  
-    add_stock(data, "AAPL", 5)  
-    add_stock(data, "MSFT", 2)  
-    add_bond(data, "US10Y", 3, 1000, 0.045)  
-    print(make_summary(data))  
-    print()  
-    print(make_text_report(data))  
-
-Homework 2 completion – step 9
-Submission Checklist
-Mohammad Khan 2245764 at the top of the documents
-SRS updated with FR and NFR, and user stories
-README updated with run steps
-Week 01 notes updated with delivered items
-Code runs with python3 and prints a summary and a report
-
+Homework 2 Step 9 Submission Checklist  
+My name is Mohammad Khan, and my ID 2245764 is included at the top of the documents. The SRS is updated with requirements and user stories. The README is updated with run steps. The Week 1 notes are updated with what was delivered. The program runs in Python 3 and prints both a summary and a report.  
