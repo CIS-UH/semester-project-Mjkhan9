@@ -43,19 +43,23 @@ Homework 2: Step 3 - Activity List with Estimated Hours
 - Packaging the final submission: 0.5 hours
 
 The total estimated effort is 19.5 hours.
-
-Homework 2: Step 4 - Dependencies
-
-- Finalizing user stories depends on reviewing the slides.
-- Writing the scope depends on completing the user stories.
-- Designing the data model relies on the user stories and scope.
-- Planning the functions is contingent on the data model.
-- Coding the functions depends on the planning.
-- Testing depends on completing the demo.
-- Documentation depends on finishing the tests.
-- Final schedule checks depend on the documentation.
-- Packaging depends on completing the schedule checks.
-
+- A2 depends on A1  
+- A3 depends on A1  
+- A4 depends on A2 and A3  
+- A5 depends on A4  
+- A6 depends on A5  
+- A7 depends on A5  
+- A8 depends on A6 and A7  
+- A9 depends on A8  
+- A10 depends on A6 through A9  
+- A11 depends on A10  
+- A12 depends on A10  
+- A13 depends on A11 and A12  
+- A14 depends on A10 through A13  
+- A15 depends on A2, A3, and A8  
+- A16 depends on A14 and A15  
+- A17 depends on A10 through A16  
+- A18 depends on A17
 Homework 2: Step 5 - Milestones
 
 - Requirements are approved after the user stories and scope are complete.
@@ -67,7 +71,7 @@ Homework 2: Step 5 - Milestones
 
 Homework 2: Step 6 - Schedule by Day
 
-The timeline Gantt chart screenshot can be found here. I created it in Excel and saved it as weekly_logs/timeline_gantt.png. The chart outlines Days 1 through 9, with a one-hour buffer distributed between Days 6 and 9.
+The timeline Gantt chart screenshot can be found here - weekly_logs.timeline_gantt.png - In the weekly folder!
 
 Homework 2: Step 7 - Risk Register
 
