@@ -71,7 +71,7 @@ Homework 2: Step 5 - Milestones
 
 Homework 2: Step 6 - Schedule by Day
 
-The timeline Gantt chart screenshot can be found here - weekly_logs.timeline_gantt.png - In the weekly folder!
+The timeline Gantt chart screenshot can be found here - - 
 
 Homework 2: Step 7 - Risk Register
 
