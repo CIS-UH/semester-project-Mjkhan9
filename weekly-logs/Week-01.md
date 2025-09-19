@@ -3,13 +3,13 @@ Name: Mohammad Khan
 ID: 2245764  
 Date: 09/11/25  
 
-Homework 1 - Step 1 Project Research  
+Homework 1  Step 1 Project Research  
 I looked into various personal finance apps and portfolio trackers. Most tools seem to emphasize trading and short-term price fluctuations, but they often lack a straightforward, beginner-friendly method to monitor both stocks and basic bonds in a single interface. Users frequently express frustration over complicated screens, excessive menus, and struggles with understanding risk or diversification. For teaching and student projects, an easy-to-use app that enables users to add their positions and view clear summaries would be beneficial. Research indicates that an effective initial version should allow users to input stocks and bonds with minimal fields, generate a comprehensible summary, and produce a text-based report while offering simple diversification visuals in later updates. This project is aimed at individual learners, students, and new investors who seek basic tracking without the clutter of complex features.
 
-Homework 1 - Step 2 Project Acquisition  
+Homework 1  Step 2 Project Acquisition  
 This project was chosen due to the apparent gap between basic stock trackers and more advanced professional tools. Conversations with classmates and a teaching assistant revealed a common desire for a simple app that merely records positions and provides a clear summary. The success criteria include the ability to add stocks and bonds, validation against obvious bad inputs, and generating a straightforward report that can be printed or shared. Constraints include limited time during the semester, the absence of live price feeds for this assignment, and the need to keep the code concise and easy to comprehend. I plan to use Python, ensuring compatibility with most student laptops, and will incorporate pricing and reporting in subsequent homework assignments.
 
-Homework 1 - Step 3 Vision and Scope  
+Homework 1  Step 3 Vision and Scope  
 Vision  
 The goal is to develop a simple portfolio tool that allows a new investor to log stocks and bonds while providing a clear summary and text report. It should be user-friendly, easy to grade, and capable of being enhanced later with pricing and chart features.
 
