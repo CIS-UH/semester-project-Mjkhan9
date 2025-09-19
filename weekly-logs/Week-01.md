@@ -1,4 +1,4 @@
-Week 1 — Notes (Homework 1)  
+Week 1  Notes (Homework 1)  
 Name: Mohammad Khan  
 ID: 2245764  
 Date: 09/11/25  
