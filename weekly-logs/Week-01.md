@@ -1,53 +1,73 @@
-Week 1 Notes - Homework 1  
+Name: Mohammad Khan
+ID: 2245764
+Date: September 21, 2025
 
-Name: Mohammad Khan  
-ID: 2245764  
-Date: 09/18/25  
+Homework 1: Project Initiation - Vision, Scope, and Requirements
 
-Homework 1 Step 1: Project Research  
-I researched personal finance apps and portfolio trackers. Many existing tools focus on trading and short-term price changes, which can be complex for beginners. For this student project, I believe a simple tool that allows users to add their positions and view a clear summary will be more beneficial.  
+1.1 Project Acquisition and Vision
+Software Corp was chosen because we have a proven track record of creating small, reliable finance tools. Our goal is to build a straightforward Stocks and Bonds tracker that is easy to use and simple to maintain. We will keep the work focused and avoid scope growth. This tracker is for individual investors who want a clear way to monitor their holdings.
 
-Homework 1 Step 2: Project Acquisition  
-I chose this project after discussing it with classmates and a teaching assistant, who expressed a need for a straightforward app that records investment positions and generates a clear summary. Success for this project means the program can add stocks and bonds, validate obvious erroneous inputs, and produce a simple report. Constraints include limited time, the absence of live price feeds for this assignment, and the necessity to keep the code simple and easy to read. I plan to use Python and will consider adding price features and reporting later.  
+1.2 Software Requirements Specification (SRS)
 
-Homework 1 Step 3: Vision and Scope  
-The vision is to create a basic portfolio tool that allows new investors to log stocks and bonds and view a clear summary and text report. It should be easy to grade and simple to extend with pricing and charts in the future.  
+Purpose
+State what the product will do and what is included in the first release. This document guides design, development, testing, and acceptance.
 
-In scope for Homework 1 are the following features:  
-- The ability to add stocks with a ticker symbol and quantity.  
-- The ability to add bonds with a ticker symbol, quantity, par value, and coupon rate.  
-- Basic validation for empty tickers and non-positive numbers.  
-- A summary that displays totals and positions.  
-- A plain text report.  
+Scope
+A web-based tracker for one user. The user records stocks and bonds, manages a watchlist, and views basic summaries. No trading. No advice.
 
-Out of scope for Homework 1 are:  
-- User accounts  
-- Real-time price quotes  
-- Tax lot management  
-- CSV import/export  
-- Charts  
-- Bank integrations  
+Overall Description
+The target user is an individual investor. The app shows simple forms and tables. It stores data and keeps it consistent. A short help page explains each field.
 
-The stakeholders for this project include the student developer, Mohammad Khan (ID: 2245764), the instructor and grader, and classmates who will review the demo.  
+Constraints
+Keep the feature set small in the first release. Favor clarity over complexity. Use common, well-understood patterns.
 
-Homework 1 Step 4: User Stories with Acceptance Criteria  
-1. User Story: As a user, I want to add a stock so I can keep track of my investments.  
-   Acceptance Criteria: When I enter "AAPL" and the quantity "5," the system stores the stock and shows it in the holdings list. The quantity must be greater than zero, and the ticker must be stored in uppercase.  
+Assumptions
+This is a class project. The priority is a clean scope, working features, and a straightforward handoff.
 
-2. User Story: As a user, I want an error if I add a stock with a non-positive quantity.  
-   Acceptance Criteria: If I enter zero or a negative number, the system displays a clear error message and does not add the position.  
+Functional Requirements
+FR1 Add a stock with a ticker, quantity, price, and date.
+FR2 Edit a stock record.
+FR3 Delete a stock record.
+FR4 Add a bond with face value, coupon, and maturity date.
+FR5 Edit a bond record.
+FR6 Delete a bond record.
+FR7 Create and manage a watchlist of tickers.
+FR8 Search by ticker across holdings and watchlist.
+FR9 Import holdings from a CSV file.
+FR10 Export holdings to a CSV file.
 
-3. User Story: As a user, I want an error if the stock ticker is empty.  
-   Acceptance Criteria: If I provide an empty ticker or use spaces, the system will show a clear message and will not add the position.  
+Non-Functional Requirements
+NFR1 The UI is consistent across pages.
+NFR2 Input validation blocks empty tickers and negative quantities.
+NFR3 Errors show short messages that explain what to fix.
+NFR4 The system saves and loads data without loss.
+NFR5 The design is simple enough that a new developer can read it quickly.
 
-4. User Story: As a user, I want to add a bond so I can track fixed income.  
-   Acceptance Criteria: If I enter "US10Y" with quantity "3," par value "1000," and coupon rate "0.045," the system saves the bond. Both quantity and par value must be greater than zero, and the coupon rate must be non-negative.  
+User Stories
+US1: As a user, I can add a stock so I can track it.
+US2: As a user, I can edit a stock so I can correct mistakes.
+US3: As a user, I can delete a stock so I can clean up my list.
+US4: As a user, I can add a bond so I can track income.
+US5: As a user, I can edit a bond so I can correct values.
+US6: As a user, I can delete a bond so I can remove outdated data.
+US7: As a user, I can search by ticker so I can find items quickly.
+US8: As a user, I can sort tables so I can review data efficiently.
+US9: As a user, I can create a watchlist so I can monitor investment ideas.
+US10: As a user, I can import a CSV so I can add multiple records at once.
+US11: As a user, I can export a CSV so I can back up my data.
+US12: As a user, I can see a summary count so I understand my portfolio’s scope.
+US13: As a user, I can view simple totals so I know the overall value.
+US14: As a user, I can read concise help text so I enter data accurately.
+US15: As a user, I can undo the last delete so I can recover information quickly.
 
-5. User Story: As a user, I want a portfolio summary so I can quickly see totals.  
-   Acceptance Criteria: The summary should return the total number of items, along with the counts of stocks and bonds, and should display the list of positions.  
-
-6. User Story: As a user, I want a plain text report so that it is easy to copy and share.  
-   Acceptance Criteria: The report should include a header with counts and one line per holding. For stocks, it should show the ticker and quantity. For bonds, it should display the ticker, quantity, par value, and coupon rate.  
-
-7. User Story: As a user, I want safe handling of an empty portfolio.  
+Use Case - Add Stock
+Actor: user
+Precondition: app is open
+Main flow
+1 enter ticker, quantity, price, and date
+2 system validates input
+3 system saves the record
+4 system shows it in the table
+Alternate flow
+2a invalid input shows a short message and keeps the form
    Acceptance Criteria: If the portfolio is empty, the summary should return zero counts, and the report should indicate that it is empty.
