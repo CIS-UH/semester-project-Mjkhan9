@@ -20,4 +20,6 @@ Sprint 1: 10 selected items
 Weekly Update Links:- [Week-03 Log](../weekly-logs/Week-03.md)
 
 
-Screenshot of Trello Board: [Click here to view screenshot](homework3-board.png)
+Screenshot of Trello Board: Screenshot of Trello Board:  
+[Click here to view screenshot](https://github.com/CIS-UH/semester-project-Mjkhan9/blob/main/homework3-board.png)
+
