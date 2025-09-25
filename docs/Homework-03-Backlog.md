@@ -20,4 +20,4 @@ Sprint 1: 10 selected items
 Weekly Update Links:- [Week-03 Log](../weekly-logs/Week-03.md)
 
 
-Screenshot of Trello Board: (homework3-board.png)
+Screenshot of Trello Board: homework3-board.png
