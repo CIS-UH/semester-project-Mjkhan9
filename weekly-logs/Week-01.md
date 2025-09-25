@@ -70,4 +70,4 @@ Main flow
 4 system shows it in the table
 Alternate flow
 2a invalid input shows a short message and keeps the form
-   Acceptance Criteria: If the portfolio is empty, the summary should return zero counts, and the report should indicate that it is empty.
+Acceptance Criteria: If the portfolio is empty, the summary should return zero counts, and the report should indicate that it is empty.
