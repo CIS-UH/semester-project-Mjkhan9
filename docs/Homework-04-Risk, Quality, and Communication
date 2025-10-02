@@ -1,0 +1,84 @@
+Name: Mohammad Khan
+ID: 2245764
+Date: October 2, 2025
+
+1. Risk Register
+
+Technical Risks
+
+API outage could stop live price updates
+
+Data loss during CSV import/export
+
+Login system security vulnerability
+
+Schedule Risks
+
+Sprint tasks taking longer than expected
+
+Delays in testing features before release
+
+Missed deadlines from team workload
+
+Financial Risks
+
+Cloud hosting cost higher than expected
+
+Extra expenses for software tools or licenses
+
+Penalty if release milestone is late
+
+People Risks
+
+Team member missing work during sprint
+
+Miscommunication between developers and testers
+
+Low team motivation leading to slower progress
+
+Risk Table (Probability/Impact/Response)
+
+Risk	Probability	Impact	Response
+API outage	High	High	Add fallback data cache
+Data loss CSV	Medium	High	Validate input before save
+Login vulnerability	Medium	High	Enforce stronger passwords
+Sprint delay	High	Medium	Break work into smaller tasks
+Testing delay	Medium	High	Add buffer days
+Missed deadline	Low	High	Adjust timeline with sponsor
+Hosting cost high	Medium	Medium	Track usage, set alerts
+Extra tool cost	Medium	Medium	Approve tools early
+Penalty for late release	Low	High	Communicate with sponsor
+Team absence	Medium	Medium	Cross-train members
+Miscommunication	High	Medium	Use daily check-ins
+Low motivation	Medium	Medium	Encourage progress updates
+2. Communication Plan
+
+Meeting Cadence
+
+Daily stand-up (short updates)
+
+Weekly sprint review (team progress)
+
+Bi-weekly meeting with sponsor
+
+Reporting Method
+
+Weekly status report shared with sponsor
+
+Progress tracked in backlog/logs
+
+Updates discussed in meetings
+
+Stakeholder Responsibilities
+
+Sponsor: Approves progress and gives feedback
+
+Project Lead: Coordinates tasks and meetings
+
+Developers: Complete backlog items, report blockers
+
+Testers: Run checks and report issues
+
+3. Weekly Update Links
+
+Week-04 Log
