@@ -1,8 +1,9 @@
+Homework 4: Risk, Quality, and Communication
 Name: Mohammad Khan
 ID: 2245764
 Date: October 2, 2025
 
-1. Risk Register
+Risk Register
 
 Technical Risks
 
@@ -36,54 +37,41 @@ Miscommunication between developers and testers
 
 Low team motivation leading to slower progress
 
-Risk Table (Probability/Impact/Response)
+Risk Table (Probability / Impact / Response)
 
- Risk Register
-
-| ID  | Risk Description                          | Category   | Probability | Impact | Response                                  |
-|-----|-------------------------------------------|------------|-------------|--------|-------------------------------------------|
-| T1  | API outage stops live price updates       | Technical  | High        | High   | Add fallback data cache                   |
-| T2  | Data loss during CSV import/export        | Technical  | Medium      | High   | Validate input before save                |
-| T3  | Login system security vulnerability       | Technical  | Medium      | High   | Enforce stronger passwords                |
-| S1  | Sprint tasks take longer than expected    | Schedule   | High        | Medium | Break work into smaller tasks             |
-| S2  | Delays in testing features before release | Schedule   | Medium      | High   | Add buffer days                           |
-| S3  | Missed deadlines from team workload       | Schedule   | Low         | High   | Adjust timeline with sponsor              |
-| F1  | Cloud hosting cost higher than expected   | Financial  | Medium      | Medium | Track usage, set alerts                   |
-| F2  | Extra expenses for software tools/licenses| Financial  | Medium      | Medium | Approve tools early                       |
-| F3  | Penalty if release milestone is late      | Financial  | Low         | High   | Communicate with sponsor                  |
-| P1  | Team member missing work during sprint    | People     | Medium      | Medium | Cross-train members                       |
-| P2  | Miscommunication between devs and testers | People     | High        | Medium | Use daily check-ins                       |
-| P3  | Low team motivation slows progress        | People     | Medium      | Medium | Encourage progress updates                |
+| ID | Risk Description                           | Category  | Probability | Impact | Response                      |
+| -- | ------------------------------------------ | --------- | ----------- | ------ | ----------------------------- |
+| T1 | API outage stops live price updates        | Technical | High        | High   | Add fallback data cache       |
+| T2 | Data loss during CSV import/export         | Technical | Medium      | High   | Validate input before save    |
+| T3 | Login system security vulnerability        | Technical | Medium      | High   | Enforce stronger passwords    |
+| S1 | Sprint tasks take longer than expected     | Schedule  | High        | Medium | Break work into smaller tasks |
+| S2 | Delays in testing features before release  | Schedule  | Medium      | High   | Add buffer days               |
+| S3 | Missed deadlines from team workload        | Schedule  | Low         | High   | Adjust timeline with sponsor  |
+| F1 | Cloud hosting cost higher than expected    | Financial | Medium      | Medium | Track usage, set alerts       |
+| F2 | Extra expenses for software tools/licenses | Financial | Medium      | Medium | Approve tools early           |
+| F3 | Penalty if release milestone is late       | Financial | Low         | High   | Communicate with sponsor      |
+| P1 | Team member missing work during sprint     | People    | Medium      | Medium | Cross-train members           |
+| P2 | Miscommunication between devs and testers  | People    | High        | Medium | Use daily check-ins           |
+| P3 | Low team motivation slows progress         | People    | Medium      | Medium | Encourage progress updates    |
 
 
-2. Communication Plan
+Communication Plan
 
 Meeting Cadence
-
 Daily stand-up (short updates)
-
 Weekly sprint review (team progress)
-
 Bi-weekly meeting with sponsor
 
 Reporting Method
-
 Weekly status report shared with sponsor
-
 Progress tracked in backlog/logs
-
 Updates discussed in meetings
 
 Stakeholder Responsibilities
-
 Sponsor: Approves progress and gives feedback
-
 Project Lead: Coordinates tasks and meetings
-
 Developers: Complete backlog items, report blockers
-
 Testers: Run checks and report issues
 
-3. Weekly Update Links - https://github.com/CIS-UH/semester-project-Mjkhan9/blob/49a9cee36eadbaf632c4a945d1960c5bf96229f5/weekly-logs/Week-04.md
-
-
+Weekly Update Links
+Week-04 Log: weekly-logs/Week-04.md
