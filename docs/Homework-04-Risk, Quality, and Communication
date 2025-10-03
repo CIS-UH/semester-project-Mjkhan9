@@ -38,19 +38,23 @@ Low team motivation leading to slower progress
 
 Risk Table (Probability/Impact/Response)
 
-Risk	Probability	Impact	Response
-API outage	High	High	Add fallback data cache
-Data loss CSV	Medium	High	Validate input before save
-Login vulnerability	Medium	High	Enforce stronger passwords
-Sprint delay	High	Medium	Break work into smaller tasks
-Testing delay	Medium	High	Add buffer days
-Missed deadline	Low	High	Adjust timeline with sponsor
-Hosting cost high	Medium	Medium	Track usage, set alerts
-Extra tool cost	Medium	Medium	Approve tools early
-Penalty for late release	Low	High	Communicate with sponsor
-Team absence	Medium	Medium	Cross-train members
-Miscommunication	High	Medium	Use daily check-ins
-Low motivation	Medium	Medium	Encourage progress updates
+ Risk Register
+
+| Risk Category | Risk Description | Probability | Impact | Response |
+|---------------|-----------------|-------------|--------|----------|
+| Technical | API outage stops live price updates | High | High | Add fallback data cache |
+| Technical | Data loss during CSV import/export | Medium | High | Validate input before save |
+| Technical | Login system security vulnerability | Medium | High | Enforce stronger passwords |
+| Schedule | Sprint tasks take longer than expected | High | Medium | Break work into smaller tasks |
+| Schedule | Delays in testing features before release | Medium | High | Add buffer days |
+| Schedule | Missed deadlines from team workload | Low | High | Adjust timeline with sponsor |
+| Financial | Cloud hosting cost higher than expected | Medium | Medium | Track usage, set alerts |
+| Financial | Extra expenses for software tools/licenses | Medium | Medium | Approve tools early |
+| Financial | Penalty if release milestone is late | Low | High | Communicate with sponsor |
+| People | Team member missing work during sprint | Medium | Medium | Cross-train members |
+| People | Miscommunication between developers/testers | High | Medium | Use daily check-ins |
+| People | Low team motivation slows progress | Medium | Medium | Encourage progress updates |
+
 2. Communication Plan
 
 Meeting Cadence
