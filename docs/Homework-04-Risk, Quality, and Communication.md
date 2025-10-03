@@ -74,4 +74,4 @@ Developers: Complete backlog items, report blockers
 Testers: Run checks and report issues
 
 Weekly Update Links
-Week-04 Log: weekly-logs/Week-04.md
+Week-04 Log: Weekly Update Links - weekly-logs/Week-04.md
