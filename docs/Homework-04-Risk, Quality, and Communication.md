@@ -74,4 +74,4 @@ Developers: Complete backlog items, report blockers
 Testers: Run checks and report issues
 
 Weekly Update Links
-Week-04 Log: Weekly Update Links - weekly-logs/Week-04.md
+Week-04 Log: https://github.com/CIS-UH/semester-project-Mjkhan9/blob/b7a6da81dbc29c77ed7186142da0cc645b1928ec/weekly-logs/Week-04.md
