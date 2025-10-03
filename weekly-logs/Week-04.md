@@ -3,8 +3,6 @@ Mohammad Khan
 
 Tasks Completed:
 
-Reviewed Class 5 slides (Risk, Quality, Communication)
-
 Listed 3 risks each for technical, schedule, financial, and people categories
 
 Built a risk register with probability, impact, and response
