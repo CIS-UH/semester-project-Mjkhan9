@@ -60,4 +60,5 @@ A four-person team will complete the Stock & Bond Tracker under Software Corp in
 - **C** – Consulted: provides input or expertise before work is done  
 - **I** – Informed: kept updated on progress or outcomes
 
+Link to weekly update - https://github.com/CIS-UH/semester-project-Mjkhan9/blob/dcad9a6ffaffa17fc6e7fda3d1df3d6f0d25b687/weekly-logs/Week-05.md
 
