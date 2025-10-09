@@ -1,8 +1,8 @@
-**Name:** Mohammad Khan
-**ID:** 2245764
-**Date:** October 9, 2025
+ Mohammad Khan
+ 2245764
+ October 9, 2025
 
-## Homework 6 — Resource and Cost Management
+## Homework 5 — Resource and Cost Management
 
 ***
 
