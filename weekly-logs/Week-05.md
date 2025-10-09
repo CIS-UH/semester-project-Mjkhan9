@@ -3,7 +3,7 @@ Mohammad Khan
 
 Weekly Update
 
-1 - Defined team roles with fictional names and percentage allocations
+1 - Defined team roles with names and percentage allocations
 
 2 - Created a RACI matrix showing responsibilities for major project tasks
 
