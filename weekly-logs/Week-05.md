@@ -3,12 +3,12 @@ Mohammad Khan
 
 Weekly Update
 
-1 - Defined team roles with names and percentage allocations
+Defined project team roles and assigned names, FTE percentages, and estimated hours.
 
-2 - Created a RACI matrix showing responsibilities for major project tasks
+Completed the RACI matrix outlining accountability and communication across key deliverables.
 
-3 - Built a bottom-up cost estimate with labor, hosting, and contingency
+Developed a bottom-up cost plan including labor, infrastructure, tools, and a 10% contingency reserve.
 
-4 - Added a short 3-month budgeted cashflow table
+Created a 3-month cash flow projection showing planned spending by month.
 
-5 - Reviewed earned value metrics (PV, EV, AC) for project performance
+Reviewed earned value metrics (PV, EV, AC) to assess project performance.
