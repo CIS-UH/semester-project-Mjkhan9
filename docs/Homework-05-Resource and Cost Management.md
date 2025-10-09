@@ -60,4 +60,5 @@ Homework 5 – Resource and Cost Management
 | Testing and QA | C | C | C | R | I |
 | Release approval | A | I | I | C | R |
 
-*(R = Responsible, A = Accountable, C = Consulted, I = Informed)*  
+*(R = Responsible, A = Accountable, C = Consulted, I = Informed)* 
+Link to my weekly log - https://github.com/CIS-UH/semester-project-Mjkhan9/blob/333f762a5fba40a16b42c701d38d787d3879ffc6/weekly-logs/Week-05.md
