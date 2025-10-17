@@ -53,6 +53,7 @@ Risk Table (Probability / Impact / Response)
 | P1 | Team member missing work during sprint     | People    | Medium      | Medium | Cross-train members           |
 | P2 | Miscommunication between devs and testers  | People    | High        | Medium | Use daily check-ins           |
 | P3 | Low team motivation slows progress         | People    | Medium      | Medium | Encourage progress updates    |
+| Q1 | Minor formatting errors in documentation | Quality | Low | Low | Review documents before submission |
 
 
 Communication Plan
@@ -72,6 +73,9 @@ Sponsor: Approves progress and gives feedback
 Project Lead: Coordinates tasks and meetings
 Developers: Complete backlog items, report blockers
 Testers: Run checks and report issues
+
+UPDATE for homework 6 - Add line -  | Q1 | Minor formatting errors in documentation | Quality | Low | Low | Review documents before submission |
+
 
 Weekly Update Links
 Week-04 Log: https://github.com/CIS-UH/semester-project-Mjkhan9/blob/b7a6da81dbc29c77ed7186142da0cc645b1928ec/weekly-logs/Week-04.md
