@@ -32,6 +32,7 @@ A four-person team will complete the Stock & Bond Tracker under Software Corp in
 | Software Licenses | Tools | one-off | $300 | N/A | $300 | Dev and test utilities |
 | Productivity Apps | Tools | $50 / month | $50 | 3 | $150 | GitHub Pro / Notion |
 | Contingency | Reserve | 10% | applied to total | N/A | $2,305 | Buffer for scope changes |
+| CI/CD Setup | Tools | one-time | $100 | N/A | $100 | Automated build and test configuration |
 | **Total Estimated Cost:** | | | | | **$25,355** | |
 
 #### Cash-Flow Plan (3 Months)
@@ -62,3 +63,4 @@ A four-person team will complete the Stock & Bond Tracker under Software Corp in
 
 Link to weekly update - https://github.com/CIS-UH/semester-project-Mjkhan9/blob/dcad9a6ffaffa17fc6e7fda3d1df3d6f0d25b687/weekly-logs/Week-05.md
 
+UPDATE for homework 6 - Line added - | CI/CD Setup | Tools | one-time | $100 | N/A | $100 | Automated build and test configuration |
