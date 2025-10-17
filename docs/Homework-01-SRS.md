@@ -8,7 +8,7 @@ Homework 1: Project Initiation - Vision, Scope, and Requirements
 
 Purpose State what the product will do and what is included in the first release. This document guides design, development, testing, and acceptance.
 
-Scope A web-based tracker for one user. The user records stocks and bonds, manages a watchlist, and views basic summaries. No trading. No advice.
+Scope A web-based tracker for one user. The user records stocks and bonds, manages a watchlist, and views basic summaries. No trading. No advice. The tracker will integrate with version control and continuous integration tools for easier maintenance and deployment
 
 Overall Description The target user is an individual investor. The app shows simple forms and tables. It stores data and keeps it consistent. A short help page explains each field.
 
