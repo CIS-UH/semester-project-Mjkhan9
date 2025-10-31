@@ -1,7 +1,7 @@
-Homework Assignment — Stakeholder & Charter Development  
+Homework 7 — Stakeholder & Charter Development  
 Mohammad Khan  
 2245764  
-October 16, 2025
+October 30, 2025
 
 ---
 
