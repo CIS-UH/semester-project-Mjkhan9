@@ -44,3 +44,5 @@ October 16, 2025
 | Timeline          | Setup (Month 1), Build (Month 2), QA/Release (Month 3).                     |
 | Scope             | Tracker features, CSV import/export, CI/CD, user documentation.             |
 | Team Members      | Alice Chen, David Lee, Priya Patel, Maria Lopez.                            |
+
+Weekly Update - https://github.com/CIS-UH/semester-project-Mjkhan9/blob/6c2776f152c40a57c0c640d65740c6971d80cd5b/weekly-logs/Week-07.md
