@@ -1,0 +1,26 @@
+Part 1 – Project Closure Report (Stocks & Bonds Tracker)
+Executive Summary
+This semester, I teamed up with Software Corp and worked on a Stocks & Bonds Tracker for individual investors. The whole point was to keep things simple—let users record stocks and bonds, manage a watchlist, and get clear summaries. We made sure the first version only covered the basics and that the whole app was easy to use.
+
+Looking back, we actually built a working web prototype: single-user, no trading, but real CRUD operations for holdings and a summary feature. Having GitHub for code and a CI/CD pipeline definitely made updates less stressful. Keeping our scope tight was a smart choice—it saved us from endless revisions.
+
+Achievements and Shortfalls
+Going through our original plans (especially the Gantt chart from Homework 2), I’m pretty happy with how many milestones we hit: repo and folder setup, watchlist design, clean stock/bond models, and working CSV import/export. Breaking everything into steps with a Work Breakdown Structure made the whole thing feel doable—even for someone new to this.
+
+On the good side, our UI was clean, stocks and bonds could be added and edited easily, summary totals were always correct, and you could upload/download data as expected. The watchlist even had a working search. Using version control (GitHub) and CI/CD saved loads of time over the alternative. But, yeah, some stuff didn’t make it—features like charts and advanced analytics had to be cut, mostly because of time and complexity.
+
+We had some slowdowns with testing; most of it was manual, and our automation plans weren’t finished in time. Some documentation was late, so we fixed that with daily standups. Buffer days (see the Risk Register from Homework 4) really paid off. If a test or feature dragged, we never totally panicked because there was planned wiggle room.
+
+Lessons Learned
+Consistent team communication ended up being the biggest win. Daily standups and weekly sprint reviews really did keep confusion low. Using the risk register was a life saver—if something slipped, we caught it quickly. I learned estimating hours is tricky; what started at 560 hours for the team grew after late nights fixing CI/CD issues.
+
+Doing sprints with the Trello board (Homework 3) kept everyone focused. Sponsor feedback helped set priorities. Automated pipelines (HW 6) should always be started earlier, not left for the last week. And simple things, like keeping Notion logs up to date, can keep everyone on the same page and save arguments.
+
+I also figured out clarity is more important than cool features—if the basics work, users are happy. Peer reviews and check-ins (from Homework 7) drive better teamwork and mood, even if it means scheduling a few extra short meetings.
+
+Recommendations for Future Projects
+If I were to do this over, I’d set up CI/CD right after starting the repo. Having visuals like performance charts makes summaries more useful, so I’d push for those sooner. I’d also start tracking sprint hours earlier—that way estimates get better by mid-semester, not just at the end.
+
+Short retrospectives after each sprint work better than one long feedback session later. Open feedback (even quick chats) find problems early. In plain terms, the main tracker worked and could be used, but adding analytics, multi-user support, and a master acceptance checklist would make future versions much stronger.
+
+Tying things back to the CIS course: using the stakeholder grid helped decide who needed regular updates, while the risk register and buffer days fixed most schedule problems. Celebrating small weekly wins kept morale up.
