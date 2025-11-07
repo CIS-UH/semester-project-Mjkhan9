@@ -35,3 +35,5 @@ Short retrospectives after each sprint work better than one big post-mortem late
 
 Tying it back to class, the CIS stakeholder grid and risk matrix really helped organize updates and decisions, while buffer days kept the schedule realistic.
 Overall, doing this project showed me that real project management isn’t just about planning, it’s about staying clear, communicating, and adjusting as things change.
+
+Weekly Update - https://github.com/CIS-UH/semester-project-Mjkhan9/blob/5814f8cd87585299ad9dea786878f0082607a5e8/weekly-logs/Week-08.md
