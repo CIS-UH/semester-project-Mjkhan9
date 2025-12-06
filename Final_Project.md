@@ -740,8 +740,11 @@ A Trello board was used to visualize work in progress and maintain focus on spri
 
 These limits prevented context switching and ensured items moved through to completion rather than accumulating in intermediate states.
 
-**Trello Board Reference:**  
-Visual documentation of the product backlog and Sprint 1 selection is available in the repository at: `homework3-board.png`
+**Trello Board:**
+
+![Product Backlog and Sprint 1 - Trello Board](docs/homework3-board.png)
+
+*Figure 4.1: Trello board showing complete product backlog organized by categories (Login, Watchlist, Buy/Sell, Reporting) and Sprint 1 selection*
 
 ### 4.5 Agile Metrics and Velocity Tracking
 
