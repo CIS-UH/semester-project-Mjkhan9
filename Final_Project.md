@@ -532,8 +532,11 @@ The CSV import/export features and CI/CD setup were intentionally parallelized w
 - Regular comparison of planned versus actual completion dates
 - Early warning system for tasks trending toward delays
 
-**Gantt Chart Reference:**  
-The detailed project timeline is available at: [https://docs.google.com/spreadsheets/d/e/2PACX-1vS2EqUDrgtCFPsp7WT_yiUA23gtwBd9gzzXC-7PpjhkOJRT2F9nQoPrHxG2Txr8QSkndcZ7OkF9H3km/pubhtml?gid=1987967457&single=true](https://docs.google.com/spreadsheets/d/e/2PACX-1vS2EqUDrgtCFPsp7WT_yiUA23gtwBd9gzzXC-7PpjhkOJRT2F9nQoPrHxG2Txr8QSkndcZ7OkF9H3km/pubhtml?gid=1987967457&single=true)
+**Gantt Chart:**
+
+![Project Gantt Chart - Homework 2 Timeline](docs/weekly_logs.timeline_gantt.png.png)
+
+*Figure 3.1: Project schedule showing all tasks, durations, and dependencies across the 3-month development timeline*
 
 ---
 
